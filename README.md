@@ -41,3 +41,18 @@ Machine Learning Models
 Logistic Regression
 Random Forest (200 estimators)
 Gradient Boosting (100 estimators, learning rate 0.1)
+
+🎯Performance Metrics
+Model	Train Accuracy	      Test   Accuracy
+Deep Learning (DistilBERT)	~50%	  ~78%
+Logistic Regression	        ~79%	  ~78%
+Gradient Boosting	          ~76%	  ~74%
+Random Forest	              ~100% 	~73%
+
+📌 Note: The Deep Learning model underfits, while Random Forest overfits.
+
+📌 Key Takeaways
+✅ Used DistilBERT embeddings for better text understanding
+✅ Compared performance of Deep Learning & ML models
+✅ Identified issues like underfitting & overfitting
+✅ Saved trained models for future predictions
