@@ -36,8 +36,8 @@ Input Layer: 768 (DistilBERT embedding size)
 Hidden Layer: 128 neurons, ReLU activation
 Dropout: 0.3
 Output Layer: 1 neuron, Sigmoid activation
-Machine Learning Models
 
+Machine Learning Models
 Logistic Regression
 Random Forest (200 estimators)
 Gradient Boosting (100 estimators, learning rate 0.1)
