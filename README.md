@@ -1,12 +1,12 @@
-Sentiment Analysis Using DistilBERT & Machine Learning Models
+# **Sentiment Analysis Using DistilBERT & Machine Learning Models**
 
 🚀 A deep learning-based sentiment analysis project using DistilBERT embeddings and multiple classifiers, including Logistic Regression, Random Forest, and Gradient Boosting.
 
-📌 Project Overview
+📌 **Project Overview**
 
 This project performs sentiment analysis on the IMDB dataset, classifying reviews as either positive or negative. We use DistilBERT, a lighter version of BERT, to extract text embeddings, which are then used for training deep learning and machine learning models.
 
-📂 Dataset
+📂 **Dataset**
 
 Dataset Name: IMDB Dataset
 
@@ -15,7 +15,7 @@ Number of Classes: 2 (Positive, Negative)
 Number of Records: 50,000 (Balanced)
 
 
-🛠️ Technologies & Libraries:
+🛠️ **Technologies & Libraries:**
 
 Python
 
@@ -34,7 +34,7 @@ NLTK
 Joblib
 
 
-🔨 Project Workflow
+🔨 **Project Workflow**
 
 1️⃣ Load Dataset
 
@@ -50,7 +50,7 @@ Joblib
 
 7️⃣ Make Predictions on New Reviews
 
-🧩 Model Architectures
+🧩**Model Architectures**
 
 Deep Learning Model
 
@@ -64,7 +64,7 @@ Logistic Regression
 Random Forest (200 estimators)
 Gradient Boosting (100 estimators, learning rate 0.1)
 
-🎯Performance Metrics
+🎯**Performance Metrics**
 
 Model	Train Accuracy	            Test   Accuracy
 
@@ -78,7 +78,7 @@ Random Forest	                    ~100% 	~73%
 
 📌 Note: The Deep Learning model underfits, while Random Forest overfits.
 
-📌 Key Takeaways
+📌 **Key Takeaways**
 
 ✅ Used DistilBERT embeddings for better text understanding
 
